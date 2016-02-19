@@ -2,7 +2,7 @@
 
 In this project, I am building a quadcopter powered by a Raspberry Pi.
 
-The software side of this was started on February 18, 2016.
+The hardware side of this project was started on February 1, 2016, and the software side of it was started on February 18.
 
 ## Quadcopter Parts List:
 * [4x brushless motors and ESCs](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=76073)
