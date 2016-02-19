@@ -19,8 +19,10 @@ The hardware side of this project was started on February 1, 2016, and the softw
 
 The motors will be controlled by [Weimin Ouyang's fork](https://github.com/tylerwowen/RPIO) of [Chris Hager's RPIO library](https://github.com/metachris/RPIO)
 
-## TODO:
-Add photos and videos
+## Photos:
+
+Frame, motors, ESCs, propellers, and battery:
+![Photo of drone](https://goo.gl/photos/JjBTqTgU7qNoE7Hg6)
 
 
 
