@@ -22,6 +22,7 @@ The motors will be controlled by [Weimin Ouyang's fork](https://github.com/tyler
 ## Photos:
 
 Frame, motors, ESCs, propellers, and battery:
+
 ![Photo of drone](https://raw.githubusercontent.com/jonkeller/RaspberryPiQuadcopter/master/IMG_20160202_175932.jpg)
 
 
