@@ -13,5 +13,12 @@ The quadcopter will consist of:
 * 10-DOF IMU
 * Maybe a LIDAR
 * Maybe some ultrasonic range sensors
+* Pi camera
+* Wifi card. It will act as an access point, allowing connection from another device which may be used to control the quadcopter.
+* LEDs
+
+
+
+
 
 
