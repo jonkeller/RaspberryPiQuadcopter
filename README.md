@@ -5,7 +5,7 @@ In this project, I am building a quadcopter powered by a Raspberry Pi.
 The hardware side of this project was started on February 1, 2016, and the software side of it was started on February 18.
 
 ## Quadcopter Parts List:
-* [4x brushless motors and ESCs](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=76073)
+* [4x brushless motors and ESCs](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=76073) - [ESC User Manual](http://www.flyingtech.co.uk/sites/default/files/product_files/AfroESC%2020A%20USER%20MANUAL_0.pdf)
 * [Battery](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=84097), [SBEC](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=64373), and [low-voltage alarm](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=58506)
 * [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
 * [GPS](https://www.adafruit.com/products/746)
