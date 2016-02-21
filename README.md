@@ -17,8 +17,6 @@ The hardware side of this project was started on February 1, 2016, and the softw
 * LEDs
 * [Frame](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=66323) and [propellers](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=84400)
 
-The motors will be controlled by [Weimin Ouyang's fork](https://github.com/tylerwowen/RPIO) of [Chris Hager's RPIO library](https://github.com/metachris/RPIO)
-
 ## Photos:
 
 Frame, motors, ESCs, propellers, and battery:
