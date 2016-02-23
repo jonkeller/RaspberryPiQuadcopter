@@ -1,11 +1,17 @@
 #!/usr/bin/python
 # Adapted from: http://withr.me/let-rpi-drive-brushless-motor/
 
+import sys
 from RPIO import PWM
 
-SERVO_PIN = 4
+if 2 != len(sys.argv):
+    print "Please supply one argument: the pin number of the motor."
+    exit(0)
+
+SERVO_PIN = int(sys.argv[1])
+print "Testing motor on pin:", SERVO_PIN
 FULL_THROTTLE = 1860
-ZERO_THROTTLE = 1060
+ZERO_THROTTLE = 530
 
 servo = PWM.Servo()
 
