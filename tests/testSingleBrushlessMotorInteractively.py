@@ -25,8 +25,8 @@ def config():
 while True:
     try:
         throttle_value_us = int(raw_input('Enter pulse length in microseconds (' + str(ZERO_THROTTLE) + ' - ' + str(FULL_THROTTLE) + ') or a non-integer to quit: '))
-        if throttle_value_us < ZERO_THROTTLE or throttle_value_us > FULL_THROTTLE:
-            raise ValueError('Outside throttle range')
+        #if throttle_value_us < ZERO_THROTTLE or throttle_value_us > FULL_THROTTLE:
+        #    raise ValueError('Outside throttle range')
     except ValueError:
         print "Okay, stopping."
         break
