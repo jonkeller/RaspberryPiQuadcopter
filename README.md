@@ -7,7 +7,7 @@ The hardware side of this project was started on February 1, 2016, and the softw
 ## Quadcopter Parts List:
 * [4x brushless motors and ESCs](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=76073) - [ESC User Manual](http://www.flyingtech.co.uk/sites/default/files/product_files/AfroESC%2020A%20USER%20MANUAL_0.pdf)
 * [Battery](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=84097), [SBEC](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=64373), and [low-voltage alarm](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=58506)
-* [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/)
+* [Raspberry Pi Model B](https://www.raspberrypi.org/products/model-b/). I originally tried to use a Pi 2, but the battery wouldn't supply enough power to keep it on.
 * [GPS](https://www.adafruit.com/products/746)
 * [10-DOF IMU](https://www.adafruit.com/products/1604)
 * Maybe a [LIDAR-Lite](http://pulsedlight3d.com/) (link goes to v2 but mine is the now-discontinued v1)
