@@ -41,7 +41,13 @@ config_motors()
 
 while True:
     try:
-        m = int(raw_input('Enter motor number (0-3) or a non-integer to quit: '))
+        print "1 = Rear Left Motor"
+        print "2 = Rear Right Motor"
+        print "4 = Front Left Motor"
+        print "8 = Front Right Motor"
+        m = int(raw_input('Enter motor number (or sum of multiple) or a non-integer to quit: '))
+        if m < 1 or m > 15:
+            raise ValueError('Invalid motor selected')
         throttle_value_us = int(raw_input('Enter pulse length in microseconds (' + str(ZERO_THROTTLE) + ' - ' + str(FULL_THROTTLE) + ') or a non-integer to quit: '))
         #if throttle_value_us < ZERO_THROTTLE or throttle_value_us > FULL_THROTTLE:
         #    raise ValueError('Outside throttle range')
@@ -50,6 +56,13 @@ while True:
         break
 
     print m, throttle_value_us
-    set_motor(motors[m], throttle_value_us)
+    if m & 1:
+        set_motor(REAR_LEFT_MOTOR_PIN, throttle_value_us)
+    if m & 2:
+        set_motor(REAR_RIGHT_MOTOR_PIN, throttle_value_us)
+    if m & 4:
+        set_motor(FRONT_LEFT_MOTOR_PIN, throttle_value_us)
+    if m & 8:
+        set_motor(FRONT_RIGHT_MOTOR_PIN, throttle_value_us)
 
 cleanup()
