@@ -16,6 +16,7 @@ The hardware side of this project was started on February 1, 2016, and the softw
 * Wifi USB adapter. It will act as an access point, allowing connection from another device which may be used to control the quadcopter.
 * LEDs
 * [Frame](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=66323) and [propellers](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=84400)
+* A perfboard, since that's sturdier than a breadboard.
 
 ## Photos:
 
