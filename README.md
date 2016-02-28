@@ -20,7 +20,7 @@ The hardware side of this project was started on February 1, 2016, and the softw
 
 ## Photos:
 
-Frame, motors, ESCs, propellers, and battery:
+2/2/2016: Frame, motors, ESCs, propellers, and battery:
 
 ![Photo of drone](https://raw.githubusercontent.com/jonkeller/RaspberryPiQuadcopter/master/doc/img/IMG_20160202_175932.jpg)
 
