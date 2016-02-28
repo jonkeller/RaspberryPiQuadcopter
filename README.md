@@ -18,7 +18,7 @@ The hardware side of this project was started on February 1, 2016, and the softw
 * [Frame](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=66323) and [propellers](https://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=84400)
 * A perfboard, since that's sturdier than a breadboard.
 
-## Photos:
+## Photos/Videos:
 
 2/2/2016: Frame, motors, ESCs, propellers, and battery:
 
