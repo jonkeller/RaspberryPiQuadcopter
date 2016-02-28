@@ -24,5 +24,5 @@ Frame, motors, ESCs, propellers, and battery:
 
 ![Photo of drone](https://raw.githubusercontent.com/jonkeller/RaspberryPiQuadcopter/master/doc/img/IMG_20160202_175932.jpg)
 
-
+2/27/2016: [Video of first...um..."flight"](https://www.youtube.com/watch?v=OnDQe11cgWQ)
 
