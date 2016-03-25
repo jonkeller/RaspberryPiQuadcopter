@@ -27,3 +27,5 @@ The hardware side of this project was started on February 1, 2016, and I seem to
 
 2/27/2016: [Video of first...um..."flight"](https://www.youtube.com/watch?v=OnDQe11cgWQ)
 
+![Photo with Pi and other components but without propellers](https://raw.githubusercontent.com/jonkeller/RaspberryPiQuadcopter/master/doc/img/IMG_20160317_080643.jpg)
+
