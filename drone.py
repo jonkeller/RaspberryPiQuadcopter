@@ -6,6 +6,7 @@ class Drone:
 
     def __init__(self):
         imu = IMU()
+        # TODO: Light LEDs
 
     def mainLoop(self):
         while not self.done:
@@ -14,8 +15,12 @@ class Drone:
 
     def sense(self):
         imu.read()
+        # TODO: Sense from ultrasonics
+        # TODO: Sense from GPS
+        # TODO: Sense from LIDAR
 
     def move(self):
         print "Move"
+        # TODO: use sensor data to decide where to move. Send appropriate commands to motors
 
 
