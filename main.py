@@ -7,22 +7,23 @@ sys.path.append('lib/Adafruit')
 #from Adafruit_L3GD20 import *
 #from Adafruit_LSM303 import Adafruit_LSM303
 
-done = False
+class Drone:
+    done = False
 
-def init():
-    pass
+    def __init__(self):
+        pass
 
-def mainLoop():
-    while not done:
-        sense()
-        move()
+    def mainLoop(self):
+        while not self.done:
+            self.sense()
+            self.move()
 
-def sense():
-    print "Sense"
+    def sense(self):
+        print "Sense"
 
-def move():
-    print "Move"
+    def move(self):
+        print "Move"
 
-init()
-mainLoop()
+drone = Drone()
+drone.mainLoop()
 
